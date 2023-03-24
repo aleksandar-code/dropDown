@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+}
+
+.drop-down-btn {
+  cursor: pointer;
+}
+
+.drop-down li {
+  list-style: none;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.drop-down li a {
+  cursor: pointer;
+}
+
+.drop-down .arrow {
+  font-size: 1.2rem;
+}
+
+.drop-down-menu {
+  display: none;
+}
+
+.open > .drop-down-menu {
+  display: block;
+}
